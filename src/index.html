@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <h2 class="movies__title">Movies🎬</h2>
+    <ul class="btn__list">
+      <li class="btn__item"><button class="add__movie">Add movie</button></li>
+      <li class="btn__item"><button class="edit__movie">Edit movie</button></li>
+      <li class="btn__item">
+        <button class="delete__movie">Delete movie</button>
+      </li>
+    </ul>
+    <ul class="movies__list"></ul>
+
+    <div class="modalADD">
+      <div class="modalADD__content">
+        <span class="modalADD__close" onclick="closeModal()">X</span>
+        <h2>title:</h2>
+        <input class="title__input" type="text" />
+        <h2>genre:</h2>
+        <input class="genre__input" type="text" />
+        <h2>director:</h2>
+        <input class="director__input" type="text" />
+        <h2>year:</h2>
+        <input class="year__input" type="number" />
+        <button type="button" class="btn__send">go</button>
+      </div>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

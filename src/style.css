@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto";
+}
+ul {
+  list-style: none;
+}
+.movies__title {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.btn__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+button {
+  font-size: 13px;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(76, 148, 67);
+}
+button:hover {
+  background-color: rgba(76, 148, 67, 0.685);
+  transform: 1.5s;
+}
+
+.movies__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.movie__item {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.movie__item:hover {
+  background-color: rgb(203, 205, 207);
+}
+
+/* modal */
+
+.modalADD {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalADD__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  height: 400px;
+}
+
+.modalADD__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.btn__send {
+  margin-left: 50px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
