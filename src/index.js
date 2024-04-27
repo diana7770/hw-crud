@@ -89,7 +89,10 @@ modalClose.addEventListener("click", () => {
   modalADD.style.display = "none";
 });
 
-// btnDeleteMovie.addEventListener("click", () => {
-// const movieId = btnDeleteMovie.getAttribute("data-id");
-
-// });
+btnDeleteMovie.addEventListener("click", () => {
+  const deleteId = document.getElementById("deleteId");
+  console.log(deleteId.value);
+  fetch(`http://localhost:3000/movies/${deleteId.value}`, {
+    method: "DELETE",
+  });
+});
