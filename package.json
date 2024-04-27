@@ -24,6 +24,7 @@
     "vite": "^4.0.5"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "json-server": "^1.0.0-alpha.23",
     "modern-normalize": "^2.0.0",
     "sass": "^1.72.0",
