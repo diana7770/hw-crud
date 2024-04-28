@@ -4,9 +4,9 @@
   "description": "",
   "homepage": "https://diana7770.github.io/hw-crud/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npx json-server movies.json",
     "start": "vite",
+    "preview": "vite preview",
     "build": "vite build --base=/hw-crud/"
   },
   "repository": {
